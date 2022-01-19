@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!-- Google Fonts "Montserrat" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;500;600&family=Orbitron:wght@400;600&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Main Template -->
+    <div class="container">
+        <!-- Header Part -->
+        <div class="header">
+            <h1>JavascriptQiuz</h1>
+            <div class="progress"></div>
+            <span class="persent"><span>0</span>% Completed</span>
+        </div>
+        <!-- QA Part -->
+        <div class="QA">
+            <span class="question"></span>
+            <div class="answers"></div>
+        </div>
+        <!-- Controls Part -->
+        <div class="controls">
+            <span id="back">Back</span>
+            <span id="submit" class="submit-btn">Final Submit</span>
+            <span id="next">Next</span>
+        </div>
+        <div class="resultes hide">
+            <div class="progress"></div>
+            <h2>Wrong Answers</h2>
+            <div class="wrong-answers"></div>
+            <div class="refresh">
+                <button>Again</button>
+            </div>
+        </div>
+    </div>
+    <!-- Js Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
